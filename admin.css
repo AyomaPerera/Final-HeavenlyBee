@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 90%;
+}
+.tbl-30{
+    width: 60%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-pri{
+    background-color: #10ac84;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-pri:hover{
+    background-color: #00d2d3;
+}
+
+.btn-primary{
+    background-color: #fc5c65;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.btn-primary:hover{
+    background-color: #eb3b5a;
+}
+
+.btn-secondary{
+    background-color: #fa8231;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.btn-secondary:hover{
+    background-color: #fed330;
+}
+
+.btn-trinary{
+    background-color: #4b6584;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width:fit-content;
+}
+
+.btn-trinary:hover{
+    background-color: #a5b1c2;
+}
+
+.success{
+    color: #3867d6;
+}
+.error{
+    color: #eb3b5a;
+}
+/*CSS for Menu*/
+.menu{
+    border-bottom: 1px solid #00b894;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #00b894;
+}
+.menu ul li a:hover{
+    color: #81ecec;
+}
+
+/*CSS for Main-Content*/
+.main-content{
+    /*margin: 1% 0;*/
+    
+    background-color: #dff9fb;
+    width: 110%;
+    padding: 3% 0;
+}
+.Col{
+    width: 40%;
+    background-color: rgba(37, 228, 148, 0.651);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    align-items: center;
+}
+
+.Col h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #052f3f;
+}
+
+/* CSS for footer*/
+.footer{
+    background-color: #55efc4;
+    color:blanchedalmond;
+}
+
+/*css for login*/
+
+.login{
+    border: 1px solid gray;
+    width: 20%;
+    margin:10% auto;
+    padding: 2%;
+}
